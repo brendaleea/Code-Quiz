@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 header{
@@ -16,7 +17,7 @@ flex-direction: column;
 }
 
 .outer-container{
-  
+
 }
 
 p{
@@ -35,6 +36,7 @@ p{
   width: 50%;
   justify-content: center;
   text-align: center;
+  margin-top: 30px;
   
 
 
@@ -44,18 +46,28 @@ p{
 
 #timer{
   float: right;
+  margin-right: 20px;
+  
 
 }
 
 a{
-  color: purple;
+  color: rgb(143, 26, 143);
 }
 
+.a2{
+  color: white;
+}
 
 button{
 background-color: rgb(136, 41, 136);
 font-size: 20px;
 color: white;
 margin-top: 60px;
+
+}
+
+body{
+background-color: rgb(221, 201, 239);
 
 }
