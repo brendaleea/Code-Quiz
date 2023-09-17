@@ -65,9 +65,21 @@ font-size: 20px;
 color: white;
 margin-top: 60px;
 
+
 }
 
 body{
-background-color: rgb(221, 201, 239);
+background-image: url(./images/game\ background.avif);
+background-size: cover;
+background-repeat: no-repeat;
 
+
+}
+
+footer{
+  padding: 100px;
+  text-align: center;
+  height: 200px;
+  margin-top: 315px;
+  font-size: 20px;
 }
