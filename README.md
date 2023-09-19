@@ -8,7 +8,8 @@ This application is a coding timed quiz. You are asked a question and if you get
 
 
 ## Visuals
-![Code-Quiz](./images/Codequizimg.png)
+![Code-Quiz](./assets/images/Codequizimg.png)
+
 Link to deployed website: https://brendaleea.github.io/Code-Quiz/
 
 
