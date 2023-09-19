@@ -23,6 +23,8 @@ flex-direction: column;
 p{
   display: flex;
   font-size: 20px;
+  
+
 
 
 }
@@ -82,6 +84,58 @@ background-repeat: no-repeat;
 
 
 }
+
+
+.question{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+
+
+
+
+/* 
+#question-screen{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+ 
+} */
+
+
+
+
+
+
+.quiz-finish-screen
+{
+display: block;
+
+}
+
+
+
+.display-none 
+{
+    display: none;
+}
+
+
+
 
 footer{
   padding: 100px;

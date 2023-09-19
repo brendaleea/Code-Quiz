@@ -14,28 +14,73 @@
 
   <div class="outer-container">
 
+<div>
   <p class="view-highscore"> <a href="Placeholder"> View Highscores </a> </p>
   <p id="timer"> Timer: 00:00   </p>
 
   </div>
 
-
-
-
-
-<header>
+<header class="quiz-intro">
 
   <h1> Code Quiz Challenge</h1>
   <p class="p2"> Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your scoretime by ten seconds!</p>
-                
-
-
-<button> <a class="a2" href="placeholder">
- Start Quiz </a> </button>
+              
+<button id="myButton"> Start Quiz </button>
 
 </header>
 
-<main>
+<main class="display-none">
+
+  <section id="question-screen">
+<h2 class="question">
+  1. Commonly used data types DO NOT include :
+</h2>
+<ul>
+  <li> <button id="Answer1"> 1.String </button></li>
+  <li> <button id="Answer2"> 2.Booleans </button></li>
+  <li> <button id="Answer3"> 3.For Loop </button></li>
+  <li> <button id="Answer4"> 4.Numbers </button></li>
+</ul>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="quiz-finish-screen">
+  <div>
+<h2> Quiz Finished!</h2>
+<p> Your Score: 00:00 </p>
+</div>
+
+<div>
+  <label for=""> Enter initials:</label>
+  <input type="text">
+  <button> Submit </button>
+</div>
+
+
+<section class= "Highscores-screen">
+  <h2> Highscores:</h2>
+  
+
+</section>
+
+</section>
+
+</section>
+
+
+
 
 
 
@@ -48,5 +93,8 @@ Created by Brendalee
 
 
 </main>
+
+<script src="./script.js"></script>
+
 </body>
 </html>
