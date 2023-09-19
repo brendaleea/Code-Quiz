@@ -8,6 +8,7 @@ var answerChoice2 = document.getElementById("Answer2");
 var answerChoice3 = document.getElementById("Answer3");
 var answerChoice4 = document.getElementById("Answer4");
 var correctAnswer = document.getElementById("correctAnswer");
+var alertButton = document.getElementById("alertButton");
 
 
 
@@ -18,6 +19,8 @@ console.log(quizIntro)
 quizIntro.classList.add("display-none");
 mainElement.classList.remove("display-none")
 }
+
+button
 
 
 var questions = [
