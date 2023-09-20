@@ -15,7 +15,7 @@ Link to deployed website: https://brendaleea.github.io/Code-Quiz/
 
 
 ## Installation
-This project was created using html/css/javascript/APIs
+This project was created using html/css/javascript
 
 
 
