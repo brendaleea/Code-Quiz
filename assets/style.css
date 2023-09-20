@@ -77,6 +77,14 @@ margin-top: 60px;
 
 }
 
+#next-btn{
+background-color: black;
+display: none;
+
+}
+
+
+
 body{
 background-image: url(./images/game\ background.avif);
 background-size: cover;
@@ -90,6 +98,7 @@ background-repeat: no-repeat;
 display: flex;
 justify-content: center;
 align-items: center;
+margin-top: 10%;
 
 }
 
@@ -123,7 +132,7 @@ ul{
 
 .quiz-finish-screen
 {
-display: block;
+display: none;
 
 }
 
