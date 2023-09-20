@@ -18,9 +18,11 @@ function startQuiz(){
 console.log(quizIntro)
 quizIntro.classList.add("display-none");
 mainElement.classList.remove("display-none")
+
 }
 
-button
+
+
 
 
 var questions = [
