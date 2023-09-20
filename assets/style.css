@@ -69,17 +69,21 @@ a{
 }
 
 button{
-background-color: rgb(136, 41, 136);
+background-color: rgb(149, 83, 149);
 font-size: 20px;
 color: white;
 margin-top: 60px;
+width: 350px;
+border-radius: 4px;
+padding: 10px;
 
 
 }
 
 #next-btn{
-background-color: black;
-display: none;
+background-color: rgb(95, 93, 94);
+width: 200px;
+
 
 }
 
