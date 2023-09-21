@@ -21,6 +21,15 @@ mainElement.classList.remove("display-none")
 
 }
 
+button.addEventListener("click",selectAnswer)
+function selectAnswer(){
+console.log(answerChoice1)
+mainElement.classList.add("")
+alert("Incorrect, try again")
+
+
+}
+
 
 
 
