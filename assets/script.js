@@ -16,19 +16,15 @@ button.addEventListener ("click",startQuiz)
 function startQuiz(){
 //start quiz will prompt first question
 console.log(quizIntro)
+//figure out which elements to hide and to show
 quizIntro.classList.add("display-none");
 mainElement.classList.remove("display-none")
 
 }
 
-button.addEventListener("click",selectAnswer)
-function selectAnswer(){
-console.log(answerChoice1)
-mainElement.classList.add("")
-alert("Incorrect, try again")
-
-
-}
+// write a fuction for getting questions, have a for loop to loop over the choices and crated a btn for each one
+//write a function to determine which btn is clicked-which ans they chose. write a conditional to compare with ans.
+//write a fuction to end the quiz and save highscore to local storage.
 
 
 
